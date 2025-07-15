@@ -1,0 +1,81 @@
+.CompanyAbout {
+  position: relative;
+  width: 100%;
+  padding: 60px 40px;
+  color: #ffffff;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background-image {
+  background-image: url('/public/pexels-jvdm-1457842.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(4px);
+}
+
+.footer-column h4 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.footer-column p {
+  margin: 6px 0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-column p:hover {
+  color: #00ffd5;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.social-icons svg {
+  color: #ffffff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons svg:hover {
+  transform: scale(1.2);
+  color: #00ffd5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  .footer-column h4 {
+    font-size: 18px;
+  }
+}

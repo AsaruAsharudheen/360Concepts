@@ -1,0 +1,49 @@
+.project-detail-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.back-btn {
+  background-color: #3c4dbd;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.detail-video {
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,143 @@
+.heroimg-container {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  /* border-radius: 10px; */
+}
+
+/* Main slide area */
+.home-wallpaper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  /* border-radius: 10px; */
+}
+
+/* Fade + Zoom effect */
+.fade-in {
+  animation: fadeZoomIn 1s ease-in-out;
+}
+
+@keyframes fadeZoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Dot navigation */
+.dot-container {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dot.active {
+  background-color: #ffffff;
+  transform: scale(1.4);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .heroimg-container {
+    height: 70vh;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .dot-container {
+    bottom: 15px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroimg-container {
+    height: 60vh;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .dot-container {
+    bottom: 12px;
+    gap: 6px;
+  }
+}
+.arrow-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  font-size: 32px;
+  padding: 10px 16px;
+  cursor: pointer;
+  z-index: 20;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-btn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.arrow-btn.left {
+  left: 20px;
+}
+
+.arrow-btn.right {
+  right: 20px;
+}
+
+/* Optional: hide on smaller screens or adjust */
+@media (max-width: 768px) {
+  .arrow-btn {
+    font-size: 24px;
+    padding: 8px 12px;
+  }
+
+  .arrow-btn.left {
+    left: 12px;
+  }
+
+  .arrow-btn.right {
+    right: 12px;
+  }
+}

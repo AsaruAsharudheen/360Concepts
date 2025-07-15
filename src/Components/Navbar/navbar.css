@@ -1,0 +1,257 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Container */
+.Navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo span:first-child {
+  color: #007acc;
+}
+
+.logo span:last-child {
+  color: #333;
+}
+
+/* Navigation Links */
+.others {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background: linear-gradient(to right, #007acc, #00c3ff);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #007acc;
+}
+
+/* Dropdown (Desktop) */
+.dropdown-desktop {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background: #fff;
+  padding: 12px 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 180px;
+  z-index: 100;
+}
+
+.dropdown-content p {
+  font-size: 14px;
+  color: #333;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dropdown-content p:hover {
+  background-color: #f3f3f3;
+  color: #007acc;
+}
+
+.dropdown-desktop:hover .dropdown-content {
+  display: flex;
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile Fullscreen Modal */
+.mobile-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 24px 24px;
+  font-family: 'Poppins', sans-serif;
+  overflow-y: auto;
+  animation: slideIn 0.3s ease;
+}
+
+/* Animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal Close Button */
+.modal-close {
+  position: absolute;
+  top: 22px;
+  right: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  background: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  z-index: 2100;
+  transition: all 0.3s ease;
+}
+
+.modal-close:hover {
+  color: #e74c3c;
+  transform: scale(1.1);
+}
+
+/* Modal Links */
+.modal-links {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.modal-links p {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.modal-links p:hover {
+  color: #007acc;
+}
+
+/* Mobile Dropdown */
+.dropdown-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dropdown-items {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo h1 {
+    font-size: 22px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-close {
+    font-size: 28px;
+    top: 16px;
+    right: 16px;
+  }
+
+  .modal-links p {
+    font-size: 16px;
+  }
+}
+.dropdown-content {
+  display: flex;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background: #fff;
+  padding: 12px 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 180px;
+  z-index: 100;
+}
