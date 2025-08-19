@@ -65,6 +65,7 @@
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
   font-family: 'Poppins', sans-serif;
   transition: all 0.3s ease;
+  height: 70px;
 }
 
 /* Logo */
@@ -214,7 +215,7 @@
 
 /* Modal Links */
 .modal-links {
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -301,4 +302,71 @@
   gap: 10px;
   min-width: 180px;
   z-index: 100;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .extra-nav {
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding: 15px;
+    gap: 80px;
+  }
+
+  .extra-nav-heading p {
+    font-size: 14px;
+    /* background-color: #007acc; */
+    width: 180px;
+    
+  }
+
+  .extra-nav-menus {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .extra-nav-menus p {
+    font-size: 14px;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .extra-nav {
+    padding: 10px;
+    display: flex;
+       justify-content: space-between;
+  }
+  .extra-nav-menus p{
+    display: none;
+  }
+
+  .extra-nav-heading p {
+    font-size: 13px;
+  }
+
+  .extra-nav-menus {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .social-icons {
+    justify-content: flex-start;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+  }
 }

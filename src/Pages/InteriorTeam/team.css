@@ -20,11 +20,9 @@
 
 .team-container {
   display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 100px;
-  justify-items: center;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
 }
 
 .team-card {
@@ -32,6 +30,7 @@
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   padding: 20px;
+  width: 100%;
   max-width: 260px;
   transition: transform 0.3s;
 }
@@ -82,37 +81,28 @@
 .social-icons i:hover {
   color: #007acc;
 }
-.team-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
-}
 
-.team-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  padding: 20px;
-  width: 100%;
-  max-width: 260px;
-  transition: transform 0.3s;
-}
+/* -------- Responsive -------- */
 
-.team-card:hover {
-  transform: translateY(-5px);
-}
-
-/* Responsive: 2 per row on small screens */
+/* Tablet: 2 cards per row */
 @media (max-width: 768px) {
   .team-card {
-    flex: 0 0 45%; /* Two per row with some spacing */
+    flex: 0 0 45%; /* ~2 per row */
   }
 }
 
-/* Full width on extra small devices */
+/* Mobile: 1 card per row */
 @media (max-width: 480px) {
   .team-card {
     flex: 0 0 100%;
+  }
+
+  .team-section h2 {
+    font-size: 26px;
+  }
+
+  .team-subtitle {
+    font-size: 14px;
+    margin-bottom: 25px;
   }
 }

@@ -7,12 +7,7 @@ const teamMembers = [
     role: 'Interior',
     desc: 'I am an ambitious workaholic, but apart from that, pretty simple person.',
   },
-  {
-    img: 'Haseeb.png',
-    name: 'Haseeb',
-    role: 'Interior',
-    desc: 'I am an ambitious workaholic, but apart from that, pretty simple person.',
-  },
+
   {
     img: 'persons (2).jpg',
     name: 'David Smith',
