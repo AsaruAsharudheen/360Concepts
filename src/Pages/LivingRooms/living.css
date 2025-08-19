@@ -127,7 +127,7 @@
   /* min-width: 300px; */
   /* background-color: black; */
   width: 80%;
-  margin-left: 290px;
+  margin-left: 200px;
   margin-top: 80px;
   font-family: 'heading', Sans-serif;
   font-style: normal;
@@ -136,7 +136,7 @@
 }
 
 .livingroom-text h1 {
-  font-size: 55px;
+  font-size: 40px;
   /* font-weight: 700; */
   margin-bottom: 20px;
   font-weight: lighter;
@@ -147,7 +147,7 @@
 }
 
 .livingroom-text p {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.7;
   color: #9b8e8c;
   margin-bottom: 16px;
@@ -156,15 +156,13 @@
 .living-images-type {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 100px;
-  padding: 40px 70px;
-  /* max-width: 1400px; */
-  /* margin: auto; */
+  gap: 50px;
+  padding: 40px 20px;
+
 }
 
 .living-image-card {
   background-color: #fff;
-  /* border-radius: 16px; */
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
