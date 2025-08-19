@@ -38,7 +38,7 @@ const InteriorTeam = () => {
       <div className="team-container">
         {teamMembers.map((member, index) => (
           <div className="team-card" key={index}>
-            <img src={`/public/${member.img}`} alt={member.name} />
+            <img src={`${member.img}`} alt={member.name} />
             <h3>{member.name}</h3>
             <h4>{member.role}</h4>
             <p>{member.desc}</p>
