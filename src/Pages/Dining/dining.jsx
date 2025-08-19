@@ -3,52 +3,52 @@ import './dining.css';
 
 const diningData = [
   {
-    img: '/public/dining (1).jpg',
+    img: 'dining (1).jpg',
     title: 'Modern Dining 1',
     desc: 'Elegant dining setup for everyday family meals.',
   },
   {
-    img: '/public/dining (2).jpg',
+    img: 'dining (2).jpg',
     title: 'Classic Dining 2',
     desc: 'Traditional wooden dining with warm lighting.',
   },
   {
-    img: '/public/dining (3).jpg',
+    img: 'dining (3).jpg',
     title: 'Luxury Dining 3',
     desc: 'Premium seating with modern design flair.',
   },
   {
-    img: '/public/dining (4).jpg',
+    img: 'dining (4).jpg',
     title: 'Space-Saving Design 4',
     desc: 'Compact table sets ideal for small spaces.',
   },
   {
-    img: '/public/dining (5).jpg',
+    img: 'dining (5).jpg',
     title: 'Rustic Look 5',
     desc: 'Wood finishes with a natural earthy vibe.',
   },
   {
-    img: '/public/dining (6).jpg',
+    img: 'dining (6).jpg',
     title: 'Contemporary Setup 6',
     desc: 'Chic and modern dining arrangement.',
   },
   {
-    img: '/public/dining (7).jpg',
+    img: 'dining (7).jpg',
     title: 'Glass Table 7',
     desc: 'Transparent design with elegant chairs.',
   },
   {
-    img: '/public/dining (8).jpg',
+    img: 'dining (8).jpg',
     title: 'Minimalist Dining 8',
     desc: 'Sleek styling with clean finishes.',
   },
   {
-    img: '/public/dining (9).jpg',
+    img: 'dining (9).jpg',
     title: 'Warm Ambience 9',
     desc: 'Lighting that elevates your dining experience.',
   },
   {
-    img: '/public/dining (10).jpg',
+    img: 'dining (10).jpg',
     title: 'Grand Setup 10',
     desc: 'Spacious table with luxurious touches.',
   },
@@ -70,7 +70,7 @@ const Dining = () => {
           <h1>Dining Room</h1>
         </div>
         <img
-          src="/public/dining (1).jpg"
+          src="dining (1).jpg"
           alt="Header Background"
           className="header-background-image-living"
         />
@@ -90,15 +90,15 @@ const Dining = () => {
         </p>
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="/public/dining (11).jpg" alt="" />
+            <img src="dining (11).jpg" alt="" />
             <p>Solid Wood Dining with Cushioned Chairs</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/dining (12).jpg" alt="" />
+            <img src="dining (12).jpg" alt="" />
             <p>Marble-Top Dining for 6</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/dining (14).jpg" alt="" />
+            <img src="dining (14).jpg" alt="" />
             <p>Glass Table with Designer Legs</p>
           </div>
         </div>
@@ -117,7 +117,7 @@ const Dining = () => {
             </p>
           </div>
           <div className="images-living-working">
-            <img src="/public/dining (14).jpg" alt="Dining Interior" />
+            <img src="dining (14).jpg" alt="Dining Interior" />
           </div>
         </div>
       </div>

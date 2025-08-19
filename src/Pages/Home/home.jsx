@@ -16,7 +16,7 @@ const Home = () => {
         <Recents />
 
         <div className="image">
-          <img src="/public/pexels-jvdm-1454805.jpg" alt="" />
+          <img src="pexels-jvdm-1454805.jpg" alt="" />
         </div>
         <div className="imageAbout">
           <h1>Welcome to 360Concepts Interiors</h1>
@@ -40,18 +40,18 @@ const Home = () => {
       <div className="secondPage">
         <div className="secondImages">
           <div className="imageBox">
-            <img src="/public/pexels-houzlook-3356416.jpg" alt="South India" />
+            <img src="pexels-houzlook-3356416.jpg" alt="South India" />
             <div className="imageOverlayText">ALL OVER SOUTH INDIA</div>
           </div>
           <div className="imageBox">
             <img
-              src="/public/pexels-medhat-ayad-122846-439227.jpg"
+              src="pexels-medhat-ayad-122846-439227.jpg"
               alt="Finishes"
             />
             <div className="imageOverlayText">15 TYPES OF FINISHES</div>
           </div>
           <div className="imageBox">
-            <img src="/public/pexels-pixabay-161758.jpg" alt="Customized" />
+            <img src="pexels-pixabay-161758.jpg" alt="Customized" />
             <div className="imageOverlayText">CUSTOMIZED DESIGNS</div>
           </div>
         </div>
@@ -120,7 +120,7 @@ const Home = () => {
       </div>
       <ThirdPage />
       <div className="LastImage">
-        <img src="/public/pexels-falling4utah-2724749.jpg" alt="" />
+        <img src="pexels-falling4utah-2724749.jpg" alt="" />
       </div>
 
       <LastAbout />

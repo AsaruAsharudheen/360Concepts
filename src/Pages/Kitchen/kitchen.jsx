@@ -3,52 +3,52 @@ import './kitchen.css';
 
 const kitchenData = [
   {
-    img: '/public/kitchen (1).jpg',
+    img: 'kitchen (1).jpg',
     title: 'Modular Kitchen Design 1',
     desc: 'Efficient and elegant kitchen setup with modern storage solutions.',
   },
   {
-    img: '/public/kitchen (2).jpg',
+    img: 'kitchen (2).jpg',
     title: 'Luxury Kitchen 2',
     desc: 'Crafted with premium materials and excellent lighting.',
   },
   {
-    img: '/public/kitchen (3).jpg',
+    img: 'kitchen (3).jpg',
     title: 'Sleek Cabinets 3',
     desc: 'Smooth-finish cabinets that maximize space and style.',
   },
   {
-    img: '/public/kitchen (4).jpg',
+    img: 'kitchen (4).jpg',
     title: 'Open Plan Kitchen 4',
     desc: 'Functional layout with dining integration.',
   },
   {
-    img: '/public/kitchen (5).jpg',
+    img: 'kitchen (5).jpg',
     title: 'Minimalist Touch 5',
     desc: 'Simple, clean lines with ample natural light.',
   },
   {
-    img: '/public/kitchen (6).jpg',
+    img: 'kitchen (6).jpg',
     title: 'Island Counter Kitchen 6',
     desc: 'Elegant kitchen with centered island for prep and dining.',
   },
   {
-    img: '/public/leaving (7).jpg',
+    img: 'leaving (7).jpg',
     title: 'Mixed Use Kitchen 7',
     desc: 'Combines wood textures with modern tech.',
   },
   {
-    img: '/public/leaving (8).jpg',
+    img: 'leaving (8).jpg',
     title: 'Smart Kitchen 8',
     desc: 'Built-in appliances and smart lighting system.',
   },
   {
-    img: '/public/leaving (9).jpg',
+    img: 'leaving (9).jpg',
     title: 'Traditional Look 9',
     desc: 'Classic cabinets with modern upgrades.',
   },
   {
-    img: '/public/kitchen (10).jpg',
+    img: 'kitchen (10).jpg',
     title: 'Premium Finish 10',
     desc: 'Stylish surfaces with top-tier fittings.',
   },
@@ -74,7 +74,7 @@ const Kitchen = () => {
           <h1>Kitchen</h1>
         </div>
         <img
-          src="/public/kitchen (2).jpg"
+          src="kitchen (2).jpg"
           alt="Header Background"
           className="header-background-image-living"
         />
@@ -97,25 +97,25 @@ const Kitchen = () => {
         <div className="living-images-type">
           <div className="living-image-card">
             <img
-              src="/public/kitchen explain (1).jpg"
+              src="kitchen explain (1).jpg"
               alt=""
-              onClick={() => openImageModal('/public/kitchen explain (1).jpg')}
+              onClick={() => openImageModal('kitchen explain (1).jpg')}
             />
             <p>Modular Kitchen with Overhead Cabinets</p>
           </div>
           <div className="living-image-card">
             <img
-              src="/public/kitchen explain (2).jpg"
+              src="kitchen explain (2).jpg"
               alt=""
-              onClick={() => openImageModal('/public/kitchen explain (2).jpg')}
+              onClick={() => openImageModal('kitchen explain (2).jpg')}
             />
             <p>Island Kitchen with Pendant Lights</p>
           </div>
           <div className="living-image-card">
             <img
-              src="/public/kitchen explain (3).jpg"
+              src="kitchen explain (3).jpg"
               alt=""
-              onClick={() => openImageModal('/public/kitchen explain (3).jpg')}
+              onClick={() => openImageModal('kitchen explain (3).jpg')}
             />
             <p>Compact Kitchen with Smart Storage</p>
           </div>
@@ -137,7 +137,7 @@ const Kitchen = () => {
           </div>
           <div className="images-living-working">
             <img
-              src="/public/kitchen interior.jpg"
+              src="kitchen interior.jpg"
               alt="Kitchen Interior"
               onClick={() => openImageModal('/public/kitchen interior.jpg')}
             />

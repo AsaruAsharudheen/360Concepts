@@ -5,6 +5,52 @@
   padding: 0;
 }
 
+.extra-nav {
+  background-color: #403e39; /* grey background */
+  display: flex;
+  justify-content: space-around;
+  gap: 390px;
+  align-items: center;
+  padding: 12px 40px;
+  font-family: 'Poppins', sans-serif;
+  height: 60px;
+}
+
+.extra-nav-heading p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+.extra-nav-menus {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.extra-nav-menus p {
+  font-size: 15px;
+  margin: 0;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  font-size: 25px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff4d4d; /* hover color */
+}
+
 /* Navbar Container */
 .Navbar {
   position: sticky;
@@ -12,7 +58,8 @@
   z-index: 1000;
   background: #ffffff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 150px;
   align-items: center;
   padding: 18px 32px;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
@@ -45,7 +92,7 @@
 
 .nav-link {
   position: relative;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
   cursor: pointer;
   color: #222;
@@ -53,7 +100,7 @@
 }
 
 .nav-link::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -5px;
   left: 0;

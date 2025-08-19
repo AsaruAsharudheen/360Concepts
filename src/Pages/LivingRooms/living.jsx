@@ -3,52 +3,52 @@ import './living.css';
 
 const livingData = [
   {
-    img: '/public/leaving (1).jpg',
+    img: 'leaving (1).jpg',
     title: 'Elegant Modern Living',
     desc: 'A minimalist modern space combining comfort with sleek aesthetics for perfect family relaxation.',
   },
   {
-    img: '/public/leaving (2).jpg',
+    img: 'leaving (2).jpg',
     title: 'Warm Lighting Decor',
     desc: 'Soft lighting enhances the cozy ambiance in this contemporary design.',
   },
   {
-    img: '/public/leaving (3).jpg',
+    img: 'leaving (3).jpg',
     title: 'Luxury Wooden Accents',
     desc: 'Rich wooden textures bring timeless elegance to this spacious living room.',
   },
   {
-    img: '/public/leaving (4).jpg',
+    img: 'leaving (4).jpg',
     title: 'Open Plan Comfort',
     desc: 'Spacious layouts with multifunctional furniture define modern sophistication.',
   },
   {
-    img: '/public/leaving (5).jpg',
+    img: 'leaving (5).jpg',
     title: 'Artful Interiors',
     desc: 'Statement art and contemporary furniture create a stylish and welcoming space.',
   },
   {
-    img: '/public/leaving (6).jpg',
+    img: 'leaving (6).jpg',
     title: 'Neutral Tones Harmony',
     desc: 'Earthy palettes blend beautifully for a calm and elegant aesthetic.',
   },
   {
-    img: '/public/leaving (7).jpg',
+    img: 'leaving (7).jpg',
     title: 'Indoor-Outdoor Blend',
     desc: 'A design that connects interior comfort with natural outdoor beauty.',
   },
   {
-    img: '/public/leaving (8).jpg',
+    img: 'leaving (8).jpg',
     title: 'Sleek Urban Living',
     desc: 'Smart design meets compact space for modern city lifestyle.',
   },
   {
-    img: '/public/leaving (9).jpg',
+    img: 'leaving (9).jpg',
     title: 'Classic Contemporary Mix',
     desc: 'Modern shapes and traditional materials merge in balanced beauty.',
   },
   {
-    img: '/public/leaving (10).jpg',
+    img: 'leaving (10).jpg',
     title: 'Designer Living Setup',
     desc: 'A perfect combination of elegance, comfort, and functionality in design.',
   },
@@ -75,7 +75,7 @@ const LivingRoom = () => {
           <h1>Living Room</h1>
         </div>
         <img
-          src="/public/leaving (2).jpg"
+          src="leaving (2).jpg"
           alt="Header Background"
           className="header-background-image-living"
         />
@@ -95,15 +95,15 @@ const LivingRoom = () => {
 
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="/public/leaving card (1).webp" alt="" />
+            <img src="leaving card (1).webp" alt="" />
             <p>Wall mount TV Unit with back panel</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/leaving card (2).webp" alt="" />
+            <img src="leaving card (2).webp" alt="" />
             <p>Wall Mount TV Unit with drawers</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/leaving card (3).webp" alt="" />
+            <img src="leaving card (3).webp" alt="" />
             <p>Wall mount TV Unit with Laminate Wall Panel</p>
           </div>
         </div>
@@ -123,7 +123,7 @@ const LivingRoom = () => {
           </div>
           <div className="images-living-working">
             <img
-              src="/public/workinglivingroom.webp"
+              src="workinglivingroom.webp"
               alt="Living Room Design"
             />
           </div>

@@ -4,52 +4,52 @@ import './bedroom.css';
 
 const bedroomData = [
   {
-    img: '/public/bedroom (1).jpg',
+    img: 'bedroom (1).jpg',
     title: 'Modern Bedroom 1',
     desc: 'Elegant space with modern furniture and soft lighting.',
   },
   {
-    img: '/public/bedroom (2).jpg',
+    img: 'bedroom (2).jpg',
     title: 'Classic Comfort 2',
     desc: 'A mix of tradition and comfort in design and decor.',
   },
   {
-    img: '/public/bedroom (3).jpg',
+    img: 'bedroom (3).jpg',
     title: 'Minimal Design 3',
     desc: 'Clean lines, minimal accessories, and neutral tones.',
   },
   {
-    img: '/public/bedroom (4).jpg',
+    img: 'bedroom (4).jpg',
     title: 'Cozy Corner 4',
     desc: 'Warm textures and ambient lighting create a cozy retreat.',
   },
   {
-    img: '/public/bedroom (5).jpg',
+    img: 'bedroom (5).jpg',
     title: 'Luxury Touch 5',
     desc: 'Luxurious bedding and premium materials throughout.',
   },
   {
-    img: '/public/bedroom (6).jpg',
+    img: 'bedroom (6).jpg',
     title: 'Urban Bedroom 6',
     desc: 'Sleek styling with compact city-living appeal.',
   },
   {
-    img: '/public/bedroom (7).jpg',
+    img: 'bedroom (7).jpg',
     title: 'Nature Blend 7',
     desc: 'Earthy tones and natural wood accents.',
   },
   {
-    img: '/public/bedroom (8).jpg',
+    img: 'bedroom (8).jpg',
     title: 'Smart Space 8',
     desc: 'Technology meets comfort in this smart home design.',
   },
   {
-    img: '/public/bedroom (9).jpg',
+    img: 'bedroom (9).jpg',
     title: 'Royal Feel 9',
     desc: 'A touch of royalty with rich textures and tones.',
   },
   {
-    img: '/public/bedroom (10).jpg',
+    img: 'bedroom (10).jpg',
     title: 'Peaceful Night 10',
     desc: 'Designed for optimal relaxation and sleep comfort.',
   },
@@ -76,7 +76,7 @@ const BedRoom = () => {
           <h1>Bedroom</h1>
         </div>
         <img
-          src="/public/bedroom (2).jpg"
+          src="bedroom (2).jpg"
           alt="Header Background"
           className="header-background-image-living"
         />
@@ -96,15 +96,15 @@ const BedRoom = () => {
         </p>
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="/public/bedroominterior (1).jpg" alt="" />
+            <img src="bedroominterior (1).jpg" alt="" />
             <p>Modern Cot with Headboard Storage</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/bedroominterior (2).jpg" alt="" />
+            <img src="bedroominterior (2).jpg" alt="" />
             <p>Sliding Wardrobe with Mirror Finish</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/bedroominterior (3).jpg" alt="" />
+            <img src="bedroominterior (3).jpg" alt="" />
             <p>Elegant Dressing Table with Drawers</p>
           </div>
         </div>
@@ -124,7 +124,7 @@ const BedRoom = () => {
             </p>
           </div>
           <div className="images-living-working">
-            <img src="/public/bedroominterior (4).jpg" alt="Bedroom Design" />
+            <img src="bedroominterior (4).jpg" alt="Bedroom Design" />
           </div>
         </div>
       </div>

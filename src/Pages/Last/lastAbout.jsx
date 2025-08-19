@@ -11,7 +11,18 @@ import {
 const LastAbout = () => {
   return (
     <>
-    <InteriorTeam/>
+      <div className="contact-header-modern">
+        <div className="header-overlay">
+          <h1>About Us</h1>
+        </div>
+        <img
+          src="/aboutus.jpg"
+          alt="Header Background"
+          className="header-background-image"
+        />
+        <div className="estimate-badge">FREE ESTIMATE</div>
+      </div>
+      <InteriorTeam />
       <div className="CompanyAbout">
         <div className="background-image"></div>
 

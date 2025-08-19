@@ -40,7 +40,7 @@ const Contact = () => {
           <h1>Contact Us</h1>
         </div>
         <img
-          src="/aboutus.jpg"
+          src="aboutus.jpg"
           alt="Header Background"
           className="header-background-image"
         />
@@ -80,7 +80,6 @@ const Contact = () => {
         </div>
       </div>
 
-      <LastAbout />
     </>
   );
 };

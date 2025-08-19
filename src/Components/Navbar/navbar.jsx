@@ -3,7 +3,7 @@ import { DownOutlined, MenuOutlined } from '@ant-design/icons';
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './navbar.css';
-
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 const { Text } = Typography;
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
   const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
   const timeoutRef = useRef(null);
 
-  const handleNavigate = (path) => {
+  const handleNavigate = path => {
     navigate(path);
     setVisible(false);
     setDropdownOpen(false);
@@ -33,6 +33,44 @@ const Navbar = () => {
 
   return (
     <>
+      <div className="extra-nav">
+        <div className="extra-nav-heading">
+          <p>Welcome to 360Concepts</p>
+        </div>
+        <div className="extra-nav-menus">
+          <p>Follow us</p>
+          <div className="social-icons">
+            <a
+              href="https://wa.me/1234567890"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp />
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube />
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="Navbar">
         <div className="logo">
           <h1>
@@ -43,16 +81,22 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="others desktop-menu">
-          <Text onClick={() => navigate('/')} className="nav-link">HOME</Text>
-          <Text onClick={() => navigate('/about')} className="nav-link">ABOUT</Text>
-          <Text onClick={() => navigate('/models')} className="nav-link">3D MODELS</Text>
+          <Text onClick={() => navigate('/')} className="nav-link">
+            HOME
+          </Text>
+          <Text onClick={() => navigate('/about')} className="nav-link">
+            ABOUT
+          </Text>
+          <Text onClick={() => navigate('/models')} className="nav-link">
+            3D MODELS
+          </Text>
 
           <div
             className="nav-link dropdown-desktop"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            PRODUCTS <DownOutlined style={{ fontSize: 10 }} />
+            PRODUCTS <DownOutlined style={{ fontSize: 20 }} />
             {desktopDropdownOpen && (
               <div className="dropdown-content">
                 <p onClick={() => handleNavigate('/living')}>Living Room</p>
@@ -64,8 +108,12 @@ const Navbar = () => {
             )}
           </div>
 
-          <Text onClick={() => navigate('/gallery')} className="nav-link">GALLERY</Text>
-          <Text onClick={() => navigate('/contactUs')} className="nav-link">CONTACT</Text>
+          <Text onClick={() => navigate('/gallery')} className="nav-link">
+            GALLERY
+          </Text>
+          <Text onClick={() => navigate('/contactUs')} className="nav-link">
+            CONTACT
+          </Text>
         </div>
 
         {/* Mobile Icon */}
@@ -77,7 +125,9 @@ const Navbar = () => {
       {/* Mobile Modal */}
       {visible && (
         <div className="mobile-modal">
-          <div className="modal-close" onClick={() => setVisible(false)}>×</div>
+          <div className="modal-close" onClick={() => setVisible(false)}>
+            ×
+          </div>
 
           <div className="modal-links">
             <p onClick={() => handleNavigate('/')}>HOME</p>

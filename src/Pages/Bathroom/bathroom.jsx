@@ -3,52 +3,52 @@ import './bathroom.css';
 
 const bathroomData = [
   {
-    img: '/public/bathrroms (1).jpg',
+    img: 'bathrroms (1).jpg',
     title: 'Modern Bathroom 1',
     desc: 'Minimalist design with sleek fittings and glass partition.',
   },
   {
-    img: '/public/bathrroms (2).jpg',
+    img: 'bathrroms (2).jpg',
     title: 'Luxury Vanity 2',
     desc: 'Double sink vanity with stylish lighting and storage.',
   },
   {
-    img: '/public/bathrroms (3).jpg',
+    img: 'bathrroms (3).jpg',
     title: 'Compact Elegance 3',
     desc: 'Ideal for small spaces without compromising style.',
   },
   {
-    img: '/public/bathrroms (4).jpg',
+    img: 'bathrroms (4).jpg',
     title: 'Textured Walls 4',
     desc: 'Modern textures and tiles for a luxurious touch.',
   },
   {
-    img: '/public/bathrroms (5).jpg',
+    img: 'bathrroms (5).jpg',
     title: 'Zen Retreat 5',
     desc: 'A calming bathroom with natural tones and clean lines.',
   },
   {
-    img: '/public/bathrroms (6).jpg',
+    img: 'bathrroms (6).jpg',
     title: 'Functional Space 6',
     desc: 'Built-in cabinets and mirrors for optimized use.',
   },
   {
-    img: '/public/bathrroms (7).jpg',
+    img: 'bathrroms (7).jpg',
     title: 'Black & White Theme 7',
     desc: 'Bold color contrast with premium fixtures.',
   },
   {
-    img: '/public/bathrroms (8).jpg',
+    img: 'bathrroms (8).jpg',
     title: 'Open Shower Area 8',
     desc: 'Spacious shower with rainhead and glass divider.',
   },
   {
-    img: '/public/bathrroms (9).jpg',
+    img: 'bathrroms (9).jpg',
     title: 'Traditional Style 9',
     desc: 'Warm tiles and curved fittings for a cozy appeal.',
   },
   {
-    img: '/public/bathrroms (10).jpg',
+    img: 'bathrroms (10).jpg',
     title: 'Spa Inspired 10',
     desc: 'Relaxing ambiance with light wood and neutral hues.',
   },
@@ -70,7 +70,7 @@ const Bathroom = () => {
           <h1>Bathroom</h1>
         </div>
         <img
-          src="/public/bathrroms (1).jpg"
+          src="bathrroms (1).jpg"
           alt="Header Background"
           className="header-background-image-living"
         />
@@ -91,15 +91,15 @@ const Bathroom = () => {
 
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="/public/bathrroms (11).jpg" alt="" />
+            <img src="bathrroms (11).jpg" alt="" />
             <p>Glass-Enclosed Shower Cabin</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/bathrroms (12).jpg" alt="" />
+            <img src="bathrroms (12).jpg" alt="" />
             <p>Floating Vanity with LED Mirror</p>
           </div>
           <div className="living-image-card">
-            <img src="/public/bathrroms (13).jpg" alt="" />
+            <img src="bathrroms (13).jpg" alt="" />
             <p>Storage-Optimized Washbasin Area</p>
           </div>
         </div>
@@ -118,7 +118,7 @@ const Bathroom = () => {
             </p>
           </div>
           <div className="images-living-working">
-            <img src="/public/bathrroms (5).jpg" alt="Bathroom Design" />
+            <img src="bathrroms (5).jpg" alt="Bathroom Design" />
           </div>
         </div>
       </div>
