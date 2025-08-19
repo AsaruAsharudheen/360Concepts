@@ -158,7 +158,6 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   padding: 40px 20px;
-
 }
 
 .living-image-card {
@@ -223,6 +222,29 @@
   margin-bottom: 20px;
   color: #000;
   font-weight: 500;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .text-living h2 {
+    font-size: 28px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .text-living h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+/* Extra small (like <480px) */
+@media (max-width: 480px) {
+  .text-living h2 {
+    font-size: 20px;
+  }
 }
 
 .text-living p {
