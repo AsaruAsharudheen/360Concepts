@@ -2,6 +2,13 @@ import Navbar from '../../Components/Navbar/navbar';
 import LastAbout from '../Last/lastAbout';
 import ThirdPage from '../Third/third';
 import { PhoneOutlined } from '@ant-design/icons';
+import {
+  FacebookFilled,
+  TwitterSquareFilled,
+  InstagramFilled,
+  LinkedinFilled,
+  YoutubeFilled,
+} from '@ant-design/icons';
 
 import './home.css';
 import Projects from '../Projects/projects';
@@ -121,7 +128,7 @@ const Home = () => {
       <div className="LastImage">
         <img src="pexels-falling4utah-2724749.jpg" alt="" />
       </div>
-      <InteriorTeam/>
+      <InteriorTeam />
       <div className="CompanyAbout">
         <div className="background-image"></div>
 
