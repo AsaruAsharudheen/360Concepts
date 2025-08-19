@@ -123,7 +123,7 @@ const Home = () => {
         <img src="pexels-falling4utah-2724749.jpg" alt="" />
       </div>
 
-      <LastAbout />
+      {/* <LastAbout /> */}
     </>
   );
 };
