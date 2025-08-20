@@ -73,7 +73,7 @@
   }
 
   .recent-card {
-    width: 230px;
+    width: 250px;
     height: 400px;
   }
 }
@@ -96,14 +96,14 @@
   .mobile-scroll .recent-card {
     scroll-snap-align: start;
     flex: 0 0 auto;
-    min-width: 230px;
+    min-width: 250px;
     max-width: 280px;
     box-sizing: border-box;
   }
 
   .recent-card {
     height: 480px;
-    width: 230px;
+    width: 250px;
   }
 
   .card-info {
