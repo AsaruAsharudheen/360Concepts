@@ -1,8 +1,8 @@
 /* Main container */
 .recents-wrapper {
   font-family: 'Poppins', sans-serif;
-  background-color: #f5f5f5;
-  padding: 40px 0;
+  background-color: #ffffff;
+  padding: 10px 0;
   text-align: center;
   overflow-x: hidden;
   max-width: 100%;
@@ -73,8 +73,8 @@
   }
 
   .recent-card {
-    width: 300px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
   }
 }
 
@@ -96,14 +96,14 @@
   .mobile-scroll .recent-card {
     scroll-snap-align: start;
     flex: 0 0 auto;
-    min-width: 280px;
+    min-width: 230px;
     max-width: 280px;
     box-sizing: border-box;
   }
 
   .recent-card {
-    height: 500px;
-    width: 280px;
+    height: 480px;
+    width: 200px;
   }
 
   .card-info {

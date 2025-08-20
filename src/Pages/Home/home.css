@@ -1,6 +1,6 @@
 /* Global Section Padding */
 .section {
-  padding: 60px 20px;
+  padding: 60px 0px;
 }
 
 /* ========== HERO IMAGE ========== */
@@ -13,8 +13,8 @@
   flex-wrap: wrap;
   padding: 50px 30px;
   margin-top: 100px;
-  background-color: #f9f9f9;
-  gap: 50px;
+  background-color: #ffffff;
+  gap: 40px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -60,7 +60,7 @@
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 20px 0px;
     margin-top: 40px;
     gap: 20px;
   }
