@@ -1,6 +1,12 @@
 import { useState } from 'react';
 import './kitchen.css';
-
+import {
+  FacebookFilled,
+  TwitterSquareFilled,
+  InstagramFilled,
+  LinkedinFilled,
+  YoutubeFilled,
+} from "@ant-design/icons";
 const kitchenData = [
   {
     img: 'kitchen (1).jpg',
@@ -33,31 +39,21 @@ const kitchenData = [
     desc: 'Elegant kitchen with centered island for prep and dining.',
   },
   {
-    img: 'leaving (7).jpg',
+    img: 'kitchen (7).jpg',
     title: 'Mixed Use Kitchen 7',
     desc: 'Combines wood textures with modern tech.',
   },
   {
-    img: 'leaving (8).jpg',
+    img: 'kitchen (8).jpg',
     title: 'Smart Kitchen 8',
     desc: 'Built-in appliances and smart lighting system.',
-  },
-  {
-    img: 'leaving (9).jpg',
-    title: 'Traditional Look 9',
-    desc: 'Classic cabinets with modern upgrades.',
-  },
-  {
-    img: 'kitchen (10).jpg',
-    title: 'Premium Finish 10',
-    desc: 'Stylish surfaces with top-tier fittings.',
   },
 ];
 
 const Kitchen = () => {
   const [modalImage, setModalImage] = useState(null);
 
-  const openImageModal = (src) => {
+  const openImageModal = src => {
     setModalImage(src);
   };
 
@@ -67,8 +63,6 @@ const Kitchen = () => {
 
   return (
     <>
-      
-
       <div className="contact-header-modern-living">
         <div className="header-overlay-living">
           <h1>Kitchen</h1>
@@ -97,7 +91,7 @@ const Kitchen = () => {
         <div className="living-images-type">
           <div className="living-image-card">
             <img
-              src="kitchen explain (1).jpg"
+              src="kitchen (5).jpg"
               alt=""
               onClick={() => openImageModal('kitchen explain (1).jpg')}
             />
@@ -105,7 +99,7 @@ const Kitchen = () => {
           </div>
           <div className="living-image-card">
             <img
-              src="kitchen explain (2).jpg"
+              src="kitchen (7).jpg"
               alt=""
               onClick={() => openImageModal('kitchen explain (2).jpg')}
             />
@@ -113,7 +107,7 @@ const Kitchen = () => {
           </div>
           <div className="living-image-card">
             <img
-              src="kitchen explain (3).jpg"
+              src="kitchen (3).jpg"
               alt=""
               onClick={() => openImageModal('kitchen explain (3).jpg')}
             />
@@ -137,7 +131,7 @@ const Kitchen = () => {
           </div>
           <div className="images-living-working">
             <img
-              src="kitchen interior.jpg"
+              src="kitchen (8).jpg"
               alt="Kitchen Interior"
               onClick={() => openImageModal('/public/kitchen interior.jpg')}
             />
@@ -217,6 +211,80 @@ const Kitchen = () => {
           <img src={modalImage} alt="Full View" />
         </div>
       )}
+        <div className="CompanyAbout">
+            <div className="background-image"></div>
+
+            <div className="footer-content">
+              <div className="footer-column">
+                <h4>QuickLinks</h4>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Gallery</p>
+                <p>Products</p>
+              </div>
+
+              <div className="footer-column">
+                <h4>Testimonials</h4>
+                <p>Key Handover</p>
+                <p>Blog</p>
+                <p>Terms</p>
+                <p>FAQ</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+              </div>
+
+              <div className="footer-column">
+                <h4>Related Links</h4>
+                <p>Reliable Interior Designers in Coimbatore</p>
+                <p>No.1 in Thrissur</p>
+                <p>Top Designers in Kottayam</p>
+                <p>Edge Designers in HSR Layout</p>
+                <p>Custom Kitchens in Kerala</p>
+                <p>Designers in Kochi</p>
+              </div>
+
+              <div className="footer-column social">
+                <h4>Follow Us</h4>
+                <div className="social-icons">
+                  <a
+                    href="https://www.facebook.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FacebookFilled />
+                  </a>
+                  <a
+                    href="https://twitter.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <TwitterSquareFilled />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <InstagramFilled />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <LinkedinFilled />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <YoutubeFilled />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
     </>
   );
 };

@@ -1,7 +1,15 @@
 import { useState } from 'react';
 import Navbar from '../../Components/Navbar/navbar';
 import './bedroom.css';
+import LastAbout from '../Last/lastAbout';
 
+import {
+  FacebookFilled,
+  TwitterSquareFilled,
+  InstagramFilled,
+  LinkedinFilled,
+  YoutubeFilled,
+} from "@ant-design/icons";
 const bedroomData = [
   {
     img: 'bedroom (1).jpg',
@@ -96,15 +104,15 @@ const BedRoom = () => {
         </p>
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="bedroominterior (1).jpg" alt="" />
+            <img src="bedroom (12).jpg" alt="" />
             <p>Modern Cot with Headboard Storage</p>
           </div>
           <div className="living-image-card">
-            <img src="bedroominterior (2).jpg" alt="" />
+            <img src="bedroom (13).jpg" alt="" />
             <p>Sliding Wardrobe with Mirror Finish</p>
           </div>
           <div className="living-image-card">
-            <img src="bedroominterior (3).jpg" alt="" />
+            <img src="bedroom (14).jpg" alt="" />
             <p>Elegant Dressing Table with Drawers</p>
           </div>
         </div>
@@ -124,7 +132,7 @@ const BedRoom = () => {
             </p>
           </div>
           <div className="images-living-working">
-            <img src="bedroominterior (4).jpg" alt="Bedroom Design" />
+            <img src="bedroom (15).jpg" alt="Bedroom Design" />
           </div>
         </div>
       </div>
@@ -186,6 +194,80 @@ const BedRoom = () => {
           </div>
         </div>
       )}
+        <div className="CompanyAbout">
+            <div className="background-image"></div>
+
+            <div className="footer-content">
+              <div className="footer-column">
+                <h4>QuickLinks</h4>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Gallery</p>
+                <p>Products</p>
+              </div>
+
+              <div className="footer-column">
+                <h4>Testimonials</h4>
+                <p>Key Handover</p>
+                <p>Blog</p>
+                <p>Terms</p>
+                <p>FAQ</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+              </div>
+
+              <div className="footer-column">
+                <h4>Related Links</h4>
+                <p>Reliable Interior Designers in Coimbatore</p>
+                <p>No.1 in Thrissur</p>
+                <p>Top Designers in Kottayam</p>
+                <p>Edge Designers in HSR Layout</p>
+                <p>Custom Kitchens in Kerala</p>
+                <p>Designers in Kochi</p>
+              </div>
+
+              <div className="footer-column social">
+                <h4>Follow Us</h4>
+                <div className="social-icons">
+                  <a
+                    href="https://www.facebook.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FacebookFilled />
+                  </a>
+                  <a
+                    href="https://twitter.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <TwitterSquareFilled />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <InstagramFilled />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <LinkedinFilled />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <YoutubeFilled />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
     </>
   );
 };

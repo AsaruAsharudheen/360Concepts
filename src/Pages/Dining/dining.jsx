@@ -1,6 +1,12 @@
 import { useState } from 'react';
 import './dining.css';
-
+import {
+  FacebookFilled,
+  TwitterSquareFilled,
+  InstagramFilled,
+  LinkedinFilled,
+  YoutubeFilled,
+} from "@ant-design/icons";
 const diningData = [
   {
     img: 'dining (1).jpg',
@@ -26,31 +32,6 @@ const diningData = [
     img: 'dining (5).jpg',
     title: 'Rustic Look 5',
     desc: 'Wood finishes with a natural earthy vibe.',
-  },
-  {
-    img: 'dining (6).jpg',
-    title: 'Contemporary Setup 6',
-    desc: 'Chic and modern dining arrangement.',
-  },
-  {
-    img: 'dining (7).jpg',
-    title: 'Glass Table 7',
-    desc: 'Transparent design with elegant chairs.',
-  },
-  {
-    img: 'dining (8).jpg',
-    title: 'Minimalist Dining 8',
-    desc: 'Sleek styling with clean finishes.',
-  },
-  {
-    img: 'dining (9).jpg',
-    title: 'Warm Ambience 9',
-    desc: 'Lighting that elevates your dining experience.',
-  },
-  {
-    img: 'dining (10).jpg',
-    title: 'Grand Setup 10',
-    desc: 'Spacious table with luxurious touches.',
   },
 ];
 
@@ -90,15 +71,15 @@ const Dining = () => {
         </p>
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="dining (11).jpg" alt="" />
+            <img src="dining (3).jpg" alt="" />
             <p>Solid Wood Dining with Cushioned Chairs</p>
           </div>
           <div className="living-image-card">
-            <img src="dining (12).jpg" alt="" />
+            <img src="dining (4).jpg" alt="" />
             <p>Marble-Top Dining for 6</p>
           </div>
           <div className="living-image-card">
-            <img src="dining (14).jpg" alt="" />
+            <img src="dining (5).jpg" alt="" />
             <p>Glass Table with Designer Legs</p>
           </div>
         </div>
@@ -117,7 +98,7 @@ const Dining = () => {
             </p>
           </div>
           <div className="images-living-working">
-            <img src="dining (14).jpg" alt="Dining Interior" />
+            <img src="dining (1).jpg" alt="Dining Interior" />
           </div>
         </div>
       </div>
@@ -175,6 +156,80 @@ const Dining = () => {
           </div>
         </div>
       )}
+        <div className="CompanyAbout">
+            <div className="background-image"></div>
+
+            <div className="footer-content">
+              <div className="footer-column">
+                <h4>QuickLinks</h4>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Gallery</p>
+                <p>Products</p>
+              </div>
+
+              <div className="footer-column">
+                <h4>Testimonials</h4>
+                <p>Key Handover</p>
+                <p>Blog</p>
+                <p>Terms</p>
+                <p>FAQ</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+              </div>
+
+              <div className="footer-column">
+                <h4>Related Links</h4>
+                <p>Reliable Interior Designers in Coimbatore</p>
+                <p>No.1 in Thrissur</p>
+                <p>Top Designers in Kottayam</p>
+                <p>Edge Designers in HSR Layout</p>
+                <p>Custom Kitchens in Kerala</p>
+                <p>Designers in Kochi</p>
+              </div>
+
+              <div className="footer-column social">
+                <h4>Follow Us</h4>
+                <div className="social-icons">
+                  <a
+                    href="https://www.facebook.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FacebookFilled />
+                  </a>
+                  <a
+                    href="https://twitter.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <TwitterSquareFilled />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <InstagramFilled />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <LinkedinFilled />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/@360concepts.in"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <YoutubeFilled />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
     </>
   );
 };

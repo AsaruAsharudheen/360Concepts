@@ -3,7 +3,12 @@ import { DownOutlined, MenuOutlined } from '@ant-design/icons';
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './navbar.css';
-import { FaWhatsapp, FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+} from 'react-icons/fa';
 const { Text } = Typography;
 
 const Navbar = () => {
@@ -104,6 +109,9 @@ const Navbar = () => {
                 <p onClick={() => handleNavigate('/bedroom')}>Bedroom</p>
                 <p onClick={() => handleNavigate('/dining')}>Dining Room</p>
                 <p onClick={() => handleNavigate('/bathroom')}>Bathrooms</p>
+                <p onClick={() => handleNavigate('/restaurant')}>Restaurant</p>
+                <p onClick={() => handleNavigate('/shop')}>Shop</p>
+                <p onClick={() => handleNavigate('/institute')}>Shop</p>
               </div>
             )}
           </div>

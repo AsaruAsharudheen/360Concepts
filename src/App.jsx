@@ -15,6 +15,9 @@ import Dining from './Pages/Dining/dining';
 import Bathroom from './Pages/Bathroom/bathroom';
 import ContactIcons from './Components/ContactIcons/contacticons';
 import ProjectDetail from './Pages/ProjectsDetail/projectdetail';
+import RestaurantPage from './Pages/Restaurant/restaurant';
+import ShopPage from './Pages/Shop/shop';
+import InstitutePage from './Pages/Institute/institute';
 
 const App = () => {
   useEffect(() => {
@@ -27,7 +30,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <ContactIcons/>
+      <ContactIcons />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/living" element={<LivingRoom />} />
@@ -38,7 +41,10 @@ const App = () => {
         <Route path="/contactUs" element={<Contact />} />
         <Route path="/dining" element={<Dining />} />
         <Route path="/bathroom" element={<Bathroom />} />
-        <Route path='/project/:id' element={<ProjectDetail/>}/>
+        <Route path="/project/:id" element={<ProjectDetail />} />
+        <Route path="/restaurant" element={<RestaurantPage />} />
+        <Route path="/shop" element={<ShopPage />} />
+        <Route path="/institute" element={<InstitutePage />} />
       </Routes>
     </>
   );
