@@ -55,7 +55,7 @@ const Navbar = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/360concepts.in"
               target="_blank"
               rel="noopener noreferrer"
             >

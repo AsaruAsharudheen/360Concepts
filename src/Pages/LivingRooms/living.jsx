@@ -83,7 +83,7 @@ const LivingRoom = () => {
 
       <div className="livingroom-text">
         <h1>Customized Living Room Designs</h1>
-        <p>
+        {/* <p>
           Transform your living space with 360Concepts’s bespoke living room
           designs, tailored to suit your unique style and functional needs.
         </p>
@@ -91,11 +91,11 @@ const LivingRoom = () => {
           Explore our exclusive collection and consult with our experienced
           designers, who are dedicated to crafting living room interiors that
           combine sophistication, comfort, and practicality.
-        </p>
+        </p> */}
 
         <div className="living-images-type">
           <div className="living-image-card">
-            <img src="leaving card (1).webp" alt="" />
+            <img src="13.jpg" alt="" />
             <p>Wall mount TV Unit with back panel</p>
           </div>
           <div className="living-image-card">
